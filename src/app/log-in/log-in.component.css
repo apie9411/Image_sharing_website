@@ -1,0 +1,44 @@
+body {
+  background-image: url("https://wallpapercave.com/wp/0OBRwFi.jpg");
+  background-size: cover;
+}
+
+button {
+  cursor: pointer;
+}
+
+form {
+  padding: 50px;
+}
+
+.register {
+  background-color: transparent;
+  border: solid thin;
+  border-color: white;
+  border-radius: 10%;
+  font-family: "Bradley Hand ITC";
+  margin-right: 40px;
+  color: white;
+  font-size: 20px;
+  float: right;
+}
+
+.log-in {
+  font-family: "Bradley Hand ITC";
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 64px;
+}
+
+.log-in-label {
+  font-family: "Bradley Hand ITC";
+  color: white;
+}
+
+.padding-for-register {
+  padding-top: 8px;
+}
+
+[placeholder] {
+  font-family: "Bradley Hand ITC";
+}

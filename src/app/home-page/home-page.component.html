@@ -1,0 +1,29 @@
+<app-navbar></app-navbar>
+
+<div class="row post-and-search">
+  <div class="container col-md-offset-4">
+    <button class="btn col-md-2 no-padding sharp-sides">Make post</button>
+    <div class="col-md-2 no-padding">
+      <input type="search" class="form-control sharp-sides"
+             placeholder="Search by keyword...">
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <h3 class="col-md-4 col-md-offset-5 your-pictures-header home-page-header" style="align-items: center;">Your
+    pictures</h3>
+</div>
+
+<div>
+  <div class="list-of-pics">
+    <div class="row main-images">
+      <div class="col-md-offset-4">
+        <div class="col-md-2" *ngFor="let image of imgArray"><img [src]="image" height="100" width="100"></div>
+      </div>
+    </div>
+    <div class="row load-more">
+      <button class="col-md-2 col-md-offset-5 btn">Load more...</button>
+    </div>
+  </div>
+</div>

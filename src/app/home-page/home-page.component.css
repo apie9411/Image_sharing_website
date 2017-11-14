@@ -1,0 +1,50 @@
+body {
+  background-image: url("https://wallpapercave.com/wp/Es0sW2x.jpg");
+  background-size: cover;
+}
+
+button {
+  cursor: pointer;
+  font-family: "Bradley Hand ITC";
+}
+
+.logout {
+  background-color: transparent;
+  border: solid thin;
+  border-color: black;
+  border-radius: 10%;
+  font-family: "Bradley Hand ITC";
+  margin-right: 40px;
+  font-size: 20px;
+  float: right;
+}
+
+.no-padding {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.sharp-sides {
+  border-radius: 0%;
+}
+
+.post-and-search {
+  font-family: "Bradley Hand ITC";
+}
+
+.add-row-padding {
+  padding-top: 24px;
+}
+
+.home-page-header {
+  font-family: "Bradley Hand ITC";
+  font-weight: bold;
+}
+
+.padding-for-logout {
+  padding-top: 8px;
+}
+
+.load-more {
+  padding-top: 168px;
+}

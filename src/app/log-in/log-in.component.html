@@ -1,0 +1,36 @@
+<div class="body">
+  <div class="padding-for-register">
+    <button class="register">Register</button>
+  </div>
+
+  <div class="container log-in-body">
+    <form>
+      <div class="row">
+        <div class="form-group col-md-offset-4 col-md-4">
+          <label class="log-in-label">Username</label>
+          <input type="text" class="form-control"
+                 placeholder="no username entered..."
+                 name="username-input"
+                 [(ngModel)]="username">
+        </div>
+      </div>
+      <div class="row">
+        <div class="form-group col-md-offset-4 col-md-4">
+          <label class="log-in-label">Password</label>
+          <input type="text" class="form-control"
+                 placeholder="no password entered..."
+                 name="password-input"
+                 [(ngModel)]="password">
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="row">
+        <div class="col-sm-offset-5">
+          <button class="log-in btn" [disabled]="isEmptyInputField()">Log in</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
